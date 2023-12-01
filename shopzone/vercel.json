@@ -20,7 +20,7 @@
       "dest":"/static/$1"
     },
     {
-      "src":"/(.*)",
+      "src":"home/(.*)",
       "dest":"shopzone/wsgi.py"
     }
   ]
