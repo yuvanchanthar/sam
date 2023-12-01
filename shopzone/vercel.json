@@ -2,7 +2,7 @@
   "version":2,
   "builds":[
     {
-    "src":"myweb/wsgi.py",
+    "src":"shopzone/wsgi.py",
     "use":"@vercel/python",
     "config":{"maxLambdaSize":"15mb","runtime":"python3.10"}
     },
@@ -21,7 +21,7 @@
     },
     {
       "src":"/(.*)",
-      "dest":"myweb/wsgi.py"
+      "dest":"shopzone/wsgi.py"
     }
   ]
 }
